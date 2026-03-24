@@ -112,7 +112,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mera Hisaab — आपका व्यापार सहायक</title>
+        <title>Vyapaar Saathi — आपका व्यापार सहायक</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <audio ref={audioRef} style={{ display: "none" }} />
@@ -272,7 +272,7 @@ export default function Home() {
       <div className="header">
         <div className="header-left">
           <div className="logo-dot" />
-          <div className="logo-text">मेरा <span>हिसाब</span></div>
+          <div className="logo-text">Vyapaar <span>Saathi</span></div>
         </div>
         <div style={{ textAlign: "right" }}>
           {user && <div className="user-info" style={{ marginBottom: 4 }}>{user.email}</div>}

@@ -42,7 +42,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Mera Hisaab — Login</title>
+        <title>Vyapaar Saathi — Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <style jsx global>{`
@@ -86,7 +86,7 @@ export default function Login() {
 
       <div className="page">
         <div className="logo">
-          <h1>मेरा <span>हिसाब</span></h1>
+          <h1>Vyapaar <span>Saathi</span></h1>
           <div className="divider" />
           <p>आपका डिजिटल व्यापार सहायक</p>
         </div>
