@@ -1,0 +1,6 @@
+run = "npm install && npm run dev"
+entrypoint = "pages/index.js"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
